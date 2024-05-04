@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: 0 0 0;
+  --white: 255 255 255;
+
+  --gray-050: 250 250 250;
+  --gray-075: 246 246 246;
+  --gray-100: 235 235 235;
+  --gray-150: 220 220 220;
+  --gray-200: 205 205 205;
+  --gray-250: 190 190 190;
+  --gray-300: 175 175 175;
+  --gray-350: 160 160 160;
+  --gray-400: 145 145 145;
+  --gray-450: 130 130 130;
+  --gray-500: 115 115 115;
+  --gray-550: 104 104 104;
+  --gray-600: 92 92 92;
+  --gray-650: 81 81 81;
+  --gray-700: 69 69 69;
+  --gray-740: 49 49 49;
+  --gray-750: 58 58 58;
+  --gray-800: 46 46 46;
+  --gray-850: 35 35 35;
+  --gray-870: 27 27 27;
+  --gray-885: 25 25 25;
+  --gray-900: 23 23 23;
+  --gray-950: 17 17 17;
+
+  --color-primary: var(--gray-900);
+  --color-secondary: var(--gray-500);
+  --color-tertiary: var(--gray-350);
+  --color-separator: var(--black);
+  --color-background: var(--gray-050);
+  --color-placeholder: var(--gray-600);
+}
+
+.dark {
+  --color-primary: var(--gray-100);
+  --color-secondary: var(--gray-300);
+  --color-tertiary: var(--gray-400);
+  --color-separator: var(--white);
+  --color-background: var(--gray-900);
+  --color-placeholder: var(--gray-300);
+}
+
+body {
+  @apply text-sm;
+  @apply text-primary;
+  @apply bg-background;
+  @apply antialiased;
+  @apply sm:overflow-hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 450;
+  font-size: 13px;
+  line-height: 16px;
+  height: 100%;
+  font-weight: 460;
+  letter-spacing: 0.000001px;
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hidden-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

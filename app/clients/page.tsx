@@ -7,7 +7,7 @@ export default function ClientsPage() {
       </div>
       <div className="mb-6 flex justify-between gap-3">
         <div className="relative flex grow">
-          <div className="text-tertiary absolute flex h-full w-8 items-center justify-center">
+          <div className="absolute flex h-full w-8 items-center justify-center text-tertiary">
             <svg
               width="16"
               height="16"
@@ -17,7 +17,7 @@ export default function ClientsPage() {
               <path
                 d="M5.97168 11.4224C6.94287 11.4224 7.85693 11.1431 8.63135 10.6606L11.2466 13.2759C11.4561 13.4854 11.7417 13.5869 12.0337 13.5869C12.6494 13.5869 13.1128 13.1108 13.1128 12.4951C13.1128 12.2158 13.0176 11.9365 12.8018 11.7271L10.2119 9.13086C10.7451 8.32471 11.0498 7.36621 11.0498 6.33789C11.0498 3.54492 8.76465 1.25342 5.97168 1.25342C3.17871 1.25342 0.887207 3.53857 0.887207 6.33789C0.887207 9.13086 3.17871 11.4224 5.97168 11.4224ZM5.97168 9.87354C4.02295 9.87354 2.42969 8.28027 2.42969 6.33789C2.42969 4.39551 4.02295 2.80225 5.97168 2.80225C7.91406 2.80225 9.50732 4.39551 9.50732 6.33789C9.50732 8.28027 7.91406 9.87354 5.97168 9.87354Z"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 stroke="white"
               ></path>
             </svg>
@@ -42,7 +42,7 @@ export default function ClientsPage() {
             <path
               stroke="currentColor"
               stroke-linecap="round"
-              stroke-width="2"
+              strokeWidth="2"
               d="M6 2v8M10 6H2"
             ></path>
           </svg>
@@ -58,7 +58,7 @@ export default function ClientsPage() {
           {/* Linear */}
           <div
             role="presentation"
-            className="border-black/7 flex items-center justify-between gap-3.5 rounded-xl border bg-white p-4 dark:bg-gray-740"
+            className="flex items-center justify-between gap-3.5 rounded-xl border border-black/7 bg-white p-4 dark:bg-gray-740"
           >
             <div className="flex w-full items-start gap-3.5">
               <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center overflow-hidden rounded-lg">
@@ -104,7 +104,7 @@ export default function ClientsPage() {
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
                     ></path>
                   </svg>
@@ -120,7 +120,7 @@ export default function ClientsPage() {
           {/* Other client 1 */}
           <div
             role="presentation"
-            className="border-black/7 flex items-center justify-between gap-3.5 rounded-xl border bg-white p-4 dark:bg-gray-740"
+            className="flex items-center justify-between gap-3.5 rounded-xl border border-black/7 bg-white p-4 dark:bg-gray-740"
           >
             <div className="flex w-full items-start gap-3.5">
               <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center overflow-hidden rounded-lg">
@@ -166,7 +166,7 @@ export default function ClientsPage() {
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
                     ></path>
                   </svg>
@@ -177,7 +177,7 @@ export default function ClientsPage() {
           {/* Other client 2 */}
           <div
             role="presentation"
-            className="border-black/7 flex items-center justify-between gap-3.5 rounded-xl border bg-white p-4 dark:bg-gray-740"
+            className="flex items-center justify-between gap-3.5 rounded-xl border border-black/7 bg-white p-4 dark:bg-gray-740"
           >
             <div className="flex w-full items-start gap-3.5">
               <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center overflow-hidden rounded-lg">
@@ -223,7 +223,7 @@ export default function ClientsPage() {
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
                     ></path>
                   </svg>

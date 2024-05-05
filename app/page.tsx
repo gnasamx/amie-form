@@ -5,17 +5,17 @@ export default function Home() {
     <>
       <div>
         <h3 className="mb-1 text-xl font-semibold">Accounts</h3>
-        <div className="text-secondary mb-6 text-sm">
+        <div className="mb-6 text-sm text-secondary">
           Manage account access and permissions
         </div>
       </div>
-      <div className="bg-gray-75 dark:border-gray-850 dark:bg-gray-850 flex flex-col rounded-xl border border-gray-100">
+      <div className="flex flex-col rounded-xl border border-gray-100 bg-gray-75 dark:border-gray-850 dark:bg-gray-850">
         <div className="flex w-full flex-col p-5">
           <div className="mb-5 flex flex-col">
             <div className="flex items-center space-x-2">
               <p className="text-base font-semibold">Project code</p>
             </div>
-            <p className="text-secondary mt-1 text-pretty text-sm">
+            <p className="mt-1 text-pretty text-sm text-secondary">
               A code can help identify your project. You can use any combination
               of numbers or letters
             </p>
@@ -23,7 +23,7 @@ export default function Home() {
           <div className="w-full">
             <input
               type="text"
-              className="hover:bg-gray-150 focus:bg-gray-150 placeholder:text-placeholder dark:hover:bg-gray-750 dark:focus:bg-gray-750 flex w-full rounded-lg bg-gray-100 px-3 py-3 text-sm outline-none transition-colors dark:bg-gray-800"
+              className="flex w-full rounded-lg bg-gray-100 px-3 py-3 text-sm outline-none transition-colors placeholder:text-placeholder hover:bg-gray-150 focus:bg-gray-150 dark:bg-gray-800 dark:hover:bg-gray-750 dark:focus:bg-gray-750"
               autoComplete="off"
               placeholder="e.g Berlin, Germany"
             />
@@ -44,7 +44,7 @@ export default function Home() {
                 Display checkboxes on events
               </p>
             </div>
-            <p className="text-secondary mt-1 text-pretty text-sm">
+            <p className="mt-1 text-pretty text-sm text-secondary">
               Scheduled events with guests can be marked done in the calendar.
               When disabled, they are displayed as done automatically once they
               are over.
@@ -71,8 +71,8 @@ export default function Home() {
         <hr className="h-px w-full border-0 bg-gray-100 transition-colors dark:bg-gray-800" />
       </div>
 
-      <div className="dark:border-gray-750 flex flex-col rounded-xl border border-gray-100">
-        <div className="border-separator/10 flex items-center border-b py-4 pl-4 pr-4">
+      <div className="flex flex-col rounded-xl border border-gray-100 dark:border-gray-750">
+        <div className="flex items-center border-b border-separator/10 py-4 pl-4 pr-4">
           <div className="flex grow items-center gap-2.5">
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-green-100 font-medium text-green-600 dark:bg-green-900 dark:text-green-400">
               <svg
@@ -84,21 +84,21 @@ export default function Home() {
                 <path
                   stroke="currentColor"
                   stroke-linecap="round"
-                  stroke-width="2"
+                  strokeWidth="2"
                   d="M6 2v8M10 6H2"
                 ></path>
               </svg>
             </span>
             <div className="flex flex-col">
               <span className="text-sm font-medium">New account</span>
-              <span className="text-secondary -mt-0.5 font-medium">
+              <span className="-mt-0.5 font-medium text-secondary">
                 Select permissions to connect
               </span>
             </div>
           </div>
           <button
             type="button"
-            className="ui-open:bg-gray-150 ui-open:text-gray-800 dark:ui-open:bg-gray-750 dark:ui-open:text-gray-100 text-secondary aria-expanded:bg-gray-150 state-open:bg-gray-150 state-open:text-gray-800 dark:aria-expanded:bg-gray-750 dark:state-open:bg-gray-750 dark:state-open:text-gray-100 flex h-7 min-w-[28px] shrink-0 scale-100 appearance-none items-center justify-center rounded-lg font-medium transition-colors hover:bg-gray-100 hover:text-gray-800 focus-visible:ring-2 active:scale-[0.98] aria-expanded:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-100 dark:aria-expanded:text-gray-100"
+            className="ui-open:bg-gray-150 ui-open:text-gray-800 dark:ui-open:bg-gray-750 dark:ui-open:text-gray-100 state-open:bg-gray-150 state-open:text-gray-800 dark:state-open:bg-gray-750 dark:state-open:text-gray-100 flex h-7 min-w-[28px] shrink-0 scale-100 appearance-none items-center justify-center rounded-lg font-medium text-secondary transition-colors hover:bg-gray-100 hover:text-gray-800 focus-visible:ring-2 active:scale-[0.98] aria-expanded:bg-gray-150 aria-expanded:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-100 dark:aria-expanded:bg-gray-750 dark:aria-expanded:text-gray-100"
             data-state="closed"
           >
             <span className="rotate-45">

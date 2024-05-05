@@ -58,7 +58,6 @@ export default function RootLayout({
               style={{ flexBasis: "800px" }}
             >
               <div className="flex min-h-full w-full min-w-[520px] max-w-[740px] flex-col px-12 py-12">
-                <h3 className="mb-5 text-xl font-semibold">Create project</h3>
                 {children}
               </div>
             </div>

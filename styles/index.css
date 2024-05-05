@@ -30,12 +30,53 @@
   --gray-900: 23 23 23;
   --gray-950: 17 17 17;
 
+  --green-100: 213 247 229;
+  --green-200: 171 239 204;
+  --green-300: 128 232 178;
+  --green-400: 86 224 153;
+  --green-500: 44 216 127;
+  --green-600: 52 176 112;
+  --green-700: 56 139 96;
+  --green-800: 56 107 80;
+  --green-900: 52 78 65;
+
+  --blue-100: 213 233 255;
+  --blue-200: 171 212 255;
+  --blue-300: 130 190 255;
+  --blue-400: 88 169 255;
+  --blue-500: 46 147 255;
+  --blue-600: 56 129 207;
+  --blue-700: 62 111 164;
+  --blue-800: 63 93 125;
+  --blue-900: 60 75 91;
+
+  --purple-100: 235 213 255;
+  --purple-200: 215 171 255;
+  --purple-300: 194 130 255;
+  --purple-400: 174 88 255;
+  --purple-500: 154 46 255;
+  --purple-600: 134 56 207;
+  --purple-700: 115 62 164;
+  --purple-800: 95 63 125;
+  --purple-900: 76 60 91;
+
+  --red-100: 255 213 217;
+  --red-200: 255 171 178;
+  --red-300: 255 130 140;
+  --red-400: 255 88 101;
+  --red-500: 255 69 93;
+  --red-600: 207 56 69;
+  --red-700: 164 62 70;
+  --red-800: 125 63 68;
+  --red-900: 52 20 24;
+
   --color-primary: var(--gray-900);
   --color-secondary: var(--gray-500);
   --color-tertiary: var(--gray-350);
   --color-separator: var(--black);
   --color-background: var(--gray-050);
-  --color-placeholder: var(--gray-600);
+  --color-placeholder: var(--gray-400);
+  --color-black: var(--black);
 }
 
 .dark {
@@ -44,7 +85,8 @@
   --color-tertiary: var(--gray-400);
   --color-separator: var(--white);
   --color-background: var(--gray-900);
-  --color-placeholder: var(--gray-300);
+  --color-placeholder: var(--gray-500);
+  --color-black: var(--black);
 }
 
 body {
